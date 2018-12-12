@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JustGifItApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Hello from spring boot");
 		SpringApplication.run(JustGifItApplication.class, args);
 	}
 }
